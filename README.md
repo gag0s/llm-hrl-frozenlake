@@ -141,6 +141,6 @@ Visualization and plots
 ---
 
 ## License
-Choose your preferred license (MIT, Unlicense, etc.) and add it as LICENSE.
+This project is released into the public domain under the Unlicense.
 
 If you use this repository for academic work, citing the thesis is appreciated but not required.
