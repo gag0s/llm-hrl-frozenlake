@@ -315,7 +315,7 @@ plotter = Plotter()
 episodes = 10_000
 eval_episodes = 100
 llm_iterations = 2
-training_runs = 10
+training_runs = 5
 
 if __name__ == "__main__":
     # === EXPERIMENT ===
