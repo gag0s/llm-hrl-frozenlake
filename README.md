@@ -140,21 +140,6 @@ Visualization and plots
 
 ---
 
-## Notes and pitfalls
-
-- LLM output parsing:
-  The prompt asks for a list like [5, 48, 24, 63].
-  The code uses json.loads(), which works because JSON arrays use the same syntax.
-
-- Fixed Order variant:
-  No meta DQN is trained or saved. Only the controller is learned.
-
-- Rendering:
-  Evaluation rendering uses OpenCV.
-  If you do not want a window, call evaluate(render=False, ...).
-
----
-
 ## License
 Choose your preferred license (MIT, Unlicense, etc.) and add it as LICENSE.
 
