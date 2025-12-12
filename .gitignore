@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.env
+venv/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Ignore content but keep folder
+models/*
+!models/.gitkeep
+plots/*
+!plots/.gitkeep
